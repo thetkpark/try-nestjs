@@ -5,7 +5,7 @@ import { ProductModule } from './product/product.module'
 
 // Module bundle the controllers, providers, ...
 @Module({
-	imports: [ProductModule],
+	imports: [ProductModule], // Import a module to NestJS
 	controllers: [AppController], // Controller
 	providers: [AppService], // Provide service to controller (Ex: DB query, ...)
 })
